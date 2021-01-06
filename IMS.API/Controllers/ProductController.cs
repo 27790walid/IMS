@@ -14,7 +14,6 @@ namespace IMS.API.Controllers
     public class ProductController : ControllerBase
     {
         private ProductBL ProductBL;
-
         public ProductController(ApplicationDbContext applicationDbContext)
         {
             if (ProductBL == null)

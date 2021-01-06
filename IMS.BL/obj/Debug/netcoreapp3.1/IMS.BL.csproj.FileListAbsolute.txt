@@ -1,3 +1,11 @@
 C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\obj\Debug\netcoreapp3.1\IMS.BL.csprojAssemblyReference.cache
 C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\obj\Debug\netcoreapp3.1\IMS.BL.AssemblyInfoInputs.cache
 C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\obj\Debug\netcoreapp3.1\IMS.BL.AssemblyInfo.cs
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\bin\Debug\netcoreapp3.1\IMS.BL.deps.json
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\bin\Debug\netcoreapp3.1\IMS.BL.dll
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\bin\Debug\netcoreapp3.1\IMS.BL.pdb
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\bin\Debug\netcoreapp3.1\IMS.Model.dll
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\bin\Debug\netcoreapp3.1\IMS.Model.pdb
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\obj\Debug\netcoreapp3.1\IMS.BL.csproj.CopyComplete
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\obj\Debug\netcoreapp3.1\IMS.BL.dll
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\obj\Debug\netcoreapp3.1\IMS.BL.pdb
