@@ -1,0 +1,97 @@
+<h1>Products</h1>
+<hr />
+<p *ngIf="!products"><em>Loading...</em></p>
+<br />
+<div class="row">
+  <div class="col-md-6">
+    <label>Code :</label>
+    <input type="text" [(ngModel)]="code" class="form-control" />
+  </div>
+  <div class="col-md-6">
+    <label>Title :</label>
+    <input type="text" [(ngModel)]="title" class="form-control" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <label>Creation Date :</label>
+    <input type="date" [(ngModel)]="date" class="form-control" />
+  </div>
+  <div class="col-md-6">
+    <label>Product Quantity :</label>
+    <div class="row">
+      <div class="col-md-2">
+        <select class="form-control" [(ngModel)]="qtyType">
+          <option ngValue="<"><</option>
+          <option ngValue=">">></option>
+          <option ngValue="=">=</option>
+        </select>
+      </div>
+      <div class="col-md-10">
+        <input type="number" [(ngModel)]="productQty" class="form-control" />
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+<div class="row">
+  <div class="col-md-10">
+  </div>
+  <div class="col-md-1">
+    <button class="btn btn-secondary" (click)="clear()">Clear</button>
+  </div>
+  <div class="col-md-1">
+    <button class="btn btn-info" (click)="filter()">Search</button>
+  </div>
+</div>
+<br />
+
+<div class="row">
+  <button class="btn btn-info" (click)="addProduct()" [disabled]="disabeNew">Add New Product</button>
+</div>
+<br />
+<div class="row">
+  <div class="col-md-12">
+    <table class='table table-striped' *ngIf="products">
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Date</th>   
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products; let ind = index;">          
+
+          <td>
+            <span *ngIf="!product.editMode">{{product.code }}</span>
+            <input *ngIf="product.editMode" type="text" [(ngModel)]="product.code" name="code{{ind}}" class="form-control" />
+          </td>
+          
+          <td>
+            <span *ngIf="!product.editMode">{{product.title }}</span>
+            <input *ngIf="product.editMode" type="text" [(ngModel)]="product.title" name="title{{ind}}" class="form-control" />
+          </td>          
+          <td>
+            <span *ngIf="!product.editMode">{{product.description }}</span>
+            <input *ngIf="product.editMode" type="text" [(ngModel)]="product.description" name="description{{ind}}" class="form-control" />
+          </td>          
+          <td>
+            <span *ngIf="!product.editMode">{{product.quantity }}</span>
+            <input *ngIf="product.editMode" type="number" [(ngModel)]="product.quantity" name="quantity{{ind}}" class="form-control" />
+          </td>
+          <td>{{ product.creationDate }}</td>
+          
+          <th style="width:5%;" *ngIf="!product.editMode"><button class="btn btn-info" [disabled]="isAddClicked" (click)="edit(ind)">Edit</button></th>
+          <th style="width: 5%;" *ngIf="!product.editMode"><button class="btn btn-danger"  [disabled]="isAddClicked" (click)="delete(product)">Delete</button></th>
+          <th style="width: 5%;" *ngIf="product.editMode"><button class="btn btn-success" (click)="save(product)">Save</button></th>
+          <th style="width: 5%;" *ngIf="product.editMode"><button class="btn btn-warning" (click)="cancel(product,ind)">Cancel</button></th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

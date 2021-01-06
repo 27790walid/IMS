@@ -1,0 +1,3 @@
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\obj\Debug\netcoreapp3.1\IMS.BL.csprojAssemblyReference.cache
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\obj\Debug\netcoreapp3.1\IMS.BL.AssemblyInfoInputs.cache
+C:\Users\Waleed\Documents\GitHub\IMS\IMS.BL\obj\Debug\netcoreapp3.1\IMS.BL.AssemblyInfo.cs

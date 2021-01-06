@@ -1,0 +1,12 @@
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\bin\Debug\netcoreapp3.1\LinkTSP.Task.Model.deps.json
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\bin\Debug\netcoreapp3.1\LinkTSP.Task.Model.runtimeconfig.json
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\bin\Debug\netcoreapp3.1\LinkTSP.Task.Model.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\bin\Debug\netcoreapp3.1\LinkTSP.Task.Model.dll
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\bin\Debug\netcoreapp3.1\LinkTSP.Task.Model.pdb
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\obj\Debug\netcoreapp3.1\LinkTSP.Task.Model.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\obj\Debug\netcoreapp3.1\LinkTSP.Task.Model.AssemblyInfo.cs
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\obj\Debug\netcoreapp3.1\LinkTSP.Task.Model.dll
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\obj\Debug\netcoreapp3.1\LinkTSP.Task.Model.pdb
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\obj\Debug\netcoreapp3.1\LinkTSP.Task.Model.genruntimeconfig.cache
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\obj\Debug\netcoreapp3.1\LinkTSP.Task.Model.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\LinkTSP.Task\LinkTSP.Task.Model\obj\Debug\netcoreapp3.1\LinkTSP.Task.Model.csprojAssemblyReference.cache
